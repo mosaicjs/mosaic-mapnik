@@ -1,0 +1,17 @@
+{
+  "name": "mosaic-mapnik",
+  "version": "0.0.1",
+  "description": "A simple library simplifying configuration of Mapnik map rendering",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Mikhail Kotelnikov <mikhail.kotelnikov@ubimix.com>",
+  "license": "MIT",
+  "dependencies": {
+    "carto": "^0.14.0",
+    "mapnik": "^3.0.5",
+    "millstone": "^0.6.14",
+    "mosaic-commons": "0.0.15",
+    "sphericalmercator": "^1.0.2"
+  }
+}
