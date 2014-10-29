@@ -6,6 +6,9 @@ var Path = require('path');
 
 var projectDir = Path.join(__dirname, 'project');
 var tmpDir = Path.join(__dirname, 'tmp');
+if (!FS.existsSync(tmpDir)) {
+    FS.mkdirSync(tmpDir);
+}
 
 var loader = new MapnikConfigLoader({
     // Used by millstone to download externaal data sources
@@ -18,7 +21,7 @@ loader.loadMss(projectDir).then(function(xml){
     });
     var format = 'png'; // 'svg', 'pdf', 'png'
     var zoom = 5;
-    var file = './tmp/world-' + zoom + '.' + format;
+    var file = Path.join(tmpDir, 'world-' + zoom + '.' + format);
     return renderer.renderMap({
         xml : xml,
         file : file,
