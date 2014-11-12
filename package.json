@@ -9,7 +9,7 @@
   "dependencies": {
     "carto": "^0.14.0",
     "generic-pool": "^2.1.1",
-    "mapnik": "^3.0.5",
+    "mapnik": "^3.1.0",
     "millstone": "^0.6.14",
     "mosaic-commons": "0.0.15",
     "sphericalmercator": "^1.0.2"
