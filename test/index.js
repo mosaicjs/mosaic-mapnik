@@ -1,0 +1,2 @@
+require('./MapnikConfigLoaderTest');
+require('./MapnikRendererTest');

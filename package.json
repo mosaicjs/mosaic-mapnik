@@ -3,18 +3,19 @@
   "version": "0.0.2",
   "description": "A simple library simplifying configuration of Mapnik map rendering",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha -R spec --timeout 50000"
+  },
   "author": "Mikhail Kotelnikov <mikhail.kotelnikov@ubimix.com>",
   "license": "MIT",
   "dependencies": {
-    "carto": "^0.14.0",
-    "generic-pool": "^2.1.1",
-    "lru-cache": "^2.5.0",
-    "mapnik": "^3.1.0",
-    "mbtiles": "^0.7.6",
-    "millstone": "^0.6.14",
-    "mosaic-commons": "0.0.15",
-    "sphericalmercator": "^1.0.2",
-    "underscore": "~1.7.0"
+    "carto": "^0.15.3",
+    "mapnik": "^3.5.2",
+    "millstone": "^0.6.17",
+    "sphericalmercator": "^1.0.4"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5"
   }
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+init=epsg:4326" buffer-size="256" background-color="#0000ff">
+
+<Parameters>
+  <Parameter name="interactivity_layer">basemap</Parameter>
+  <Parameter name="interactivity_fields">TYPE,ADMIN,ADM0_A3,NAME,ABBREV,POSTAL</Parameter>
+</Parameters>
+
+<FontSet name="fontset-0">
+  <Font face-name="DejaVu Sans Bold"/>
+  <Font face-name="Arial Italic"/>
+</FontSet>
+<Style name="basemap" filter-mode="first">
+  <Rule>
+    <TextSymbolizer size="12" fontset-name="fontset-0" fill="#000000" halo-fill="#dfdbe3" halo-radius="1" wrap-width="20" ><![CDATA[[NAME]]]></TextSymbolizer>
+    <PolygonSymbolizer fill="#f2eff9" fill-opacity="0.75" />
+    <LineSymbolizer stroke-width="0.1" stroke="#442266" />
+  </Rule>
+</Style>
+<Layer name="basemap"
+>
+    <StyleName>basemap</StyleName>  </Layer>
+
+</Map>

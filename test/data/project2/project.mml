@@ -1,0 +1,13 @@
+{
+    "srs": "+init=epsg:4326",
+    "Stylesheet": [
+        "style.mss"
+    ],
+    "interactivity": {
+        "layer": "basemap",
+        "fields": ["TYPE","ADMIN","ADM0_A3","NAME","ABBREV","POSTAL"]
+    },
+    "Layer" : [ {
+        "name" : "basemap"
+    } ]
+}
