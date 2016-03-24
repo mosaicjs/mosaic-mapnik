@@ -33,7 +33,7 @@ describe('MapnikRenderer', function() {
                     suffix = suffix.join('-');
                     var file = '/tile-' + suffix + '.' + format;
                     var control = fs.readFileSync(projectDir + file);
-                    // fs.writeFileSync(__dirname + file, buffer);
+                     fs.writeFileSync(__dirname + file, buffer);
                     expect(buffer.toString('base64'))//
                     .to.eql(control.toString('base64'));
                 });
