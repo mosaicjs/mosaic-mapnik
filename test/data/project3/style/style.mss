@@ -1,20 +1,20 @@
 Map {
   buffer-size: 256;
+  background-color: blue; 
 }
 
 #basemap {
-  ::geom {
-      polygon-fill: #f2eff9;
-      polygon-opacity: 1;
-      
-      line-width: 0.1;
-      line-color: #426;
-  }
+  text-name: "[NAME]";
+  text-size: 12;
+  text-face-name: "DejaVu Sans Bold", "Arial Italic";
+  text-fill: black;
+  text-halo-fill: #DFDBE3;
+  text-halo-radius: 1;
+  text-wrap-width : 20;
   
-  ::labels {
-      text-name: [NAME];
-      text-face-name: 'Droid Sans Regular';
-      text-fill: black;
-      text-size: 12;    
-   }  
+  polygon-fill: #f2eff9;
+  polygon-opacity: 0.75;
+  
+  line-width: 0.1;
+  line-color: #426;
 }
