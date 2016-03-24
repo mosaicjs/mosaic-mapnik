@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "carto": "^0.15.3",
-    "mapnik": "^3.5.2",
+    "mapnik": "^3.5.5",
     "millstone": "^0.6.17",
     "sphericalmercator": "^1.0.4"
   },
