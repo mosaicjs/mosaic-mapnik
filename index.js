@@ -1,5 +1,6 @@
 module.exports = {
+    CartoCssSerializer : require('./lib/CartoCssSerializer'),
     MapnikConfigLoader : require('./lib/MapnikConfigLoader'),
     MapnikRenderer : require('./lib/MapnikRenderer'),
-    TileService : require('./lib/TileService')
+    RendererLoader : require('./lib/RendererLoader'),
 };
