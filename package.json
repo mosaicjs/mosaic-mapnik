@@ -4,7 +4,10 @@
   "description": "A simple library simplifying configuration of Mapnik map rendering",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec --timeout 50000"
+    "test": "mocha -R spec --timeout 50000",
+    "bump": "npm test && npm version patch && git push && git push --tags && npm publish",
+    "bump-minor": "npm run bump && npm version minor && git push && git push --tags && npm publish",
+    "commit": "npm test && git commit -a"
   },
   "author": "Mikhail Kotelnikov <mikhail.kotelnikov@ubimix.com>",
   "license": "MIT",
