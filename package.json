@@ -13,10 +13,12 @@
   "license": "MIT",
   "dependencies": {
     "carto": "^0.15.3",
+    "geojson-vt": "^2.1.8",
     "mapnik": "^3.5.5",
     "millstone": "^0.6.17",
     "node-cache": "^3.2.1",
-    "sphericalmercator": "^1.0.4"
+    "sphericalmercator": "^1.0.4",
+    "vt-pbf": "^2.0.2"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
