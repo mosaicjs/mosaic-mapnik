@@ -5,6 +5,6 @@ module.exports = {
     RendererLoader : require('./lib/RendererLoader'),
     Utils : require('./lib/Utils'),
     
-    CustomTilesHandler : require('./lib/CustomTilesHandler'),
     TilesHandler : require('./lib/TilesHandler'),
+    GeoJsonTilesHandler : require('./lib/GeoJsonTilesHandler'),
 };
