@@ -1,0 +1,2 @@
+require('./VectorTilesToImageTest');
+require('./VectorTilesToUtfGridTest');
