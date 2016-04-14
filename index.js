@@ -10,6 +10,7 @@ module.exports = {
 
     CompositeTilesProvider : require('./lib/providers/CompositeTilesProvider'),
     DispatchingTilesProvider : require('./lib/providers/DispatchingTilesProvider'),
+    GeoJsonToPbf : require('./lib/providers/GeoJsonToPbf'),
     MapnikTilesProvider : require('./lib/providers/MapnikTilesProvider'),
     parseLayersInfo : require('./lib/providers/parseLayersInfo'),
     TilesProvider : require('./lib/providers/TilesProvider'),
