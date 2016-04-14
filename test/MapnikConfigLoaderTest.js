@@ -1,6 +1,6 @@
 var fs = require('fs');
 var expect = require('expect.js');
-var MapnikConfigLoader = require('../lib/MapnikConfigLoader');
+var MapnikConfigLoader = require('..').loader.MapnikConfigLoader;
 var TestUtils = require('./TestUtils');
 
 describe('MapnikConfigLoader', function() {

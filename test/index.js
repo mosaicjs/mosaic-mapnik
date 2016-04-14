@@ -1,3 +1,3 @@
 require('./MapnikConfigLoaderTest');
 require('./MapnikRendererTest');
-require('./providers');
+require('./tiles');

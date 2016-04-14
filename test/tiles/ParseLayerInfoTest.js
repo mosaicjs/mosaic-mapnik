@@ -1,5 +1,7 @@
 var expect = require('expect.js');
-var parseLayersInfo = require('../../lib/providers/parseLayersInfo');
+var pack = require('../..');
+var parseLayersInfo = pack.tiles.parseLayersInfo;
+
 describe('ParseLayerInfoTest', function() {
 
     function test(input, control) {

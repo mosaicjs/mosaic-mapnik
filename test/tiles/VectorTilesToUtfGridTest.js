@@ -1,9 +1,10 @@
 var fs = require('fs');
 var expect = require('expect.js');
 var mapnik = require('mapnik');
-var VectorTilesGenerator = require('../../lib/providers/VectorTilesGenerator');
-var VectorTilesToUtfGrid = require('../../lib/providers/VectorTilesToUtfGrid');
-var RendererLoader = require('../../lib/RendererLoader');
+var pack = require('../..');
+var VectorTilesGenerator = pack.tiles.VectorTilesGenerator;
+var VectorTilesToUtfGrid = pack.tiles.VectorTilesToUtfGrid;
+var RendererLoader = pack.renderer.RendererLoader;
 var TestUtils = require('../TestUtils');
 
 describe('MapnikRenderer', function() {

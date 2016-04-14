@@ -1,8 +1,9 @@
 var fs = require('fs');
 var expect = require('expect.js');
 var SphericalMercator = require('sphericalmercator');
-var MapnikConfigLoader = require('../lib/MapnikConfigLoader');
-var MapnikRenderer = require('../lib/MapnikRenderer');
+var p = require('..');
+var MapnikConfigLoader = p.loader.MapnikConfigLoader;
+var MapnikRenderer = p.renderer.MapnikRenderer;
 var TestUtils = require('./TestUtils');
 
 describe('MapnikRenderer', function() {

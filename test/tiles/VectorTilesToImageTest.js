@@ -1,9 +1,10 @@
 var fs = require('fs');
 var expect = require('expect.js');
 var mapnik = require('mapnik');
-var VectorTilesGenerator = require('../../lib/providers/VectorTilesGenerator');
-var VectorTilesToImage = require('../../lib/providers/VectorTilesToImage');
-var RendererLoader = require('../../lib/RendererLoader');
+var pack = require('../..');
+var VectorTilesGenerator = pack.tiles.VectorTilesGenerator;
+var VectorTilesToImage = pack.tiles.VectorTilesToImage;
+var RendererLoader = pack.renderer.RendererLoader;
 var TestUtils = require('../TestUtils');
 
 describe('VectorTilesToImageTest', function() {

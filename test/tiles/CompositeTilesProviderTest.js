@@ -1,7 +1,8 @@
 var fs = require('fs');
 var expect = require('expect.js');
-var CompositeTilesProvider = require('../../lib/providers/CompositeTilesProvider');
-var Utils = require('../../lib/Utils');
+var pack = require('../..');
+var CompositeTilesProvider = pack.tiles.CompositeTilesProvider;
+var Utils = pack.Utils;
 var extend = Utils.extend;
 var TestUtils = require('../TestUtils');
 

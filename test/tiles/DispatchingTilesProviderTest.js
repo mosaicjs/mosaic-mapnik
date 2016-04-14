@@ -1,7 +1,7 @@
 var fs = require('fs');
 var expect = require('expect.js');
-var DispatchingTilesProvider = require('../../lib/providers/DispatchingTilesProvider');
-var Utils = require('../../lib/Utils');
+var DispatchingTilesProvider = require('../..').tiles.DispatchingTilesProvider;
+var Utils = require('../..').Utils;
 var extend = Utils.extend;
 var TestUtils = require('../TestUtils');
 
