@@ -3,5 +3,6 @@ module.exports = {
     loader : require('./lib/loader'),
     renderer : require('./lib/renderer'),
     tiles : require('./lib/tiles'),
-    Utils : require('./lib/Utils')
+    GeoJsonUtils : require('./lib/GeoJsonUtils'),
+    Utils : require('./lib/Utils'),
 };
