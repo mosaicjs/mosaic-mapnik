@@ -4,7 +4,6 @@ var pack = require('../..');
 var GeoJsonToPbf = pack.tiles.GeoJsonToPbf;
 var VectorTilesToImage = pack.tiles.VectorTilesToImage;
 var VectorTilesDeserializer = pack.tiles.VectorTilesDeserializer;
-var RendererLoader = pack.loader.RendererLoader;
 var MapnikConfigLoader = pack.loader.MapnikConfigLoader;
 var MapnikRenderer = pack.renderer.MapnikRenderer;
 var Utils = pack.Utils;
@@ -15,14 +14,6 @@ describe('GeoJsonToPbfTest', function() {
 
     TestUtils.runTest('generates image map tiles', function() {
         var projectDir = TestUtils.getPath('project3');
-        // var toVectorTile = new VectorTilesDeserializer();
-        // var renderer = new VectorTilesToImage({
-        // loader : new RendererLoader({
-        // baseDir : projectDir,
-        // tileSize : 512
-        // })
-        // });
-
         return Promise.resolve()//
         .then(function() {
             var loader = new MapnikConfigLoader();

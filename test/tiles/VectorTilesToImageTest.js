@@ -4,14 +4,14 @@ var mapnik = require('mapnik');
 var pack = require('../..');
 var VectorTilesGenerator = pack.tiles.VectorTilesGenerator;
 var VectorTilesToImage = pack.tiles.VectorTilesToImage;
-var RendererLoader = pack.renderer.RendererLoader;
+var MapnikRendererPool = pack.renderer.MapnikRendererPool;
 var TestUtils = require('../TestUtils');
 
 describe('VectorTilesToImageTest', function() {
     TestUtils.runTest('generates image map tiles', function() {
         var projectDir = TestUtils.getPath('project3');
         var vtOptions = {
-            loader : new RendererLoader({
+            pool : new MapnikRendererPool({
                 baseDir : projectDir,
                 tileSize : 512
             })
