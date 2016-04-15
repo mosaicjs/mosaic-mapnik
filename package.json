@@ -15,6 +15,7 @@
     "carto": "^0.15.3",
     "geojson-vt": "^2.1.8",
     "mapnik": "^3.5.5",
+    "mbtiles": "^0.8.2",
     "millstone": "^0.6.17",
     "node-cache": "^3.2.1",
     "sphericalmercator": "^1.0.4",
