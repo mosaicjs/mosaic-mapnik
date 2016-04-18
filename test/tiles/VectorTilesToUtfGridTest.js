@@ -114,30 +114,4 @@ describe('MapnikRenderer', function() {
         }
     });
 
-    testUtfGrid('test UTF grid with callback methods', {
-        params : {
-            x : 16,
-            y : 11,
-            z : 5,
-            format : 'utf',
-        },
-        query : {
-            layers : 'basemap:ADM0_A3,NAME',
-            cb : 'foobar'
-        },
-        control : function(c) {
-            return 'foobar(' + c + ')';
-        },
-        expectedQuery : {
-            layers : [ {
-                layer : 'basemap',
-                fields : [ 'ADM0_A3', 'NAME' ]
-            } ],
-            cb : 'foobar'
-        },
-        headers : {
-            'Content-Type' : 'application/javascript'
-        }
-    });
-
 });
