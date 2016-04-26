@@ -1,6 +1,6 @@
 {
   "name": "mosaic-mapnik",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "A simple library simplifying configuration of Mapnik map rendering",
   "main": "index.js",
   "scripts": {
