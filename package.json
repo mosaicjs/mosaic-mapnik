@@ -15,7 +15,6 @@
     "carto": "^0.15.3",
     "generic-pool": "^2.4.2",
     "geojson-vt": "^2.1.8",
-    "lru-cache": "^4.0.1",
     "mapnik": "^3.5.13",
     "mbtiles": "^0.8.2",
     "millstone": "^0.6.17",
